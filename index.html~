@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>M4105C : Un super module</title>
 	<link rel="stylesheet"href="css/style.css">
-	
+
 
 </head>
 <body>
@@ -24,6 +24,7 @@
 </div>
 <div id="paragraphe3">
 <h3>vida<h3>
+<img src="image/calais.jpg">
 <p>Vestibulum varius vestibulum magna, in rutrum ex volutpat eu. In turpis leo, mollis in mauris a, gravida rutrum eros. Fusce vitae augue pellentesque, fringilla dolor eget, facilisis leo. Mauris aliquam scelerisque leo, non fermentum dolor ornare eget. Nam pellentesque eros dolor, ac tristique magna sodales eu.</p>
 </div>
 </div>
