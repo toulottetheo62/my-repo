@@ -1,0 +1,22 @@
+*{
+font-size:14px;
+color:black;
+}
+span{
+display:block
+}
+#content{
+display:block
+}
+#paragraphe1{
+display : block;
+background-color:#1234EF;
+}
+#paragraphe2{
+display : block;
+background-color:#1234EF;
+}
+#paragraphe3{
+display : block;
+background-color:#1234EF;
+}
