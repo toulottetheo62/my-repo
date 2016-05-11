@@ -4,9 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
 	<title>M4105C : Un super module</title>
-	<link rel="stylesheet"href="css/style.css">
-	<link rel="icon" type="image/png" href"image/calais.jpg">
-
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type='image/png' href="image/ico_calais.ico">
 
 </head>
 <body>
@@ -36,7 +35,7 @@
 </div>
 <div id="paragraphe3">
 <h3>vida</h3>
-<img src="image/calais.jpg" width="500" height="474" >
+<img src="image/calais.jpg" width="500" height="474" alt="mairie de calais">
 <p>Vestibulum varius vestibulum magna, in rutrum ex volutpat eu. In turpis leo, mollis in mauris a, gravida rutrum eros. Fusce vitae augue pellentesque, fringilla dolor eget, facilisis leo. Mauris aliquam scelerisque leo, non fermentum dolor ornare eget. Nam pellentesque eros dolor, ac tristique magna sodales eu.</p>
 </div>
 </div>
