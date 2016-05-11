@@ -15,7 +15,8 @@ font-size:20px;
 h3{
 font-size:18px;
 }#paragraphe3 img{
-s
+height:200px;
+width:300px;
 }
 #content{
 display:block;
@@ -39,4 +40,11 @@ background-color:#c0392b;
 margin:2px;
 padding:5px 25px 5px 25px;
 }
+@media screen and (max-width: 360px) {
+	img{
+	width:80%;
+	margin:2px;
+	
 
+	}
+}

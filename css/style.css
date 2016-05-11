@@ -40,4 +40,11 @@ background-color:#c0392b;
 margin:2px;
 padding:5px 25px 5px 25px;
 }
+@media screen and (max-width: 360px) {
+	img{
+	width:300px;
+	margin:2px;
+	
 
+	}
+}
