@@ -1,9 +1,11 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" manifest="demo.appache">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
 	<title>M4105C : Un super module</title>
 	<link rel="stylesheet"href="css/style.css">
+	<link rel="icon" type="image/png" href"image/calais.jpg">
 
 
 </head>
@@ -20,11 +22,21 @@
 </div>
 <div id="paragraphe2">
 <h3>la<h3>
+
+<form>
+<p><label for="nom">Nom</label><input type="text" name ="nom"/></p>
+<p><label for="datenaissance">Date de naissance</label><input type="date" name ="datenaissance"/></p>
+<p><label for="number">Age</label><input type="text" name ="age"/></p>
+<p><label for="pagefb">Page Facebook</label><input type="text" name ="pagefb"/></p>
+<p><label for="mail">Mail</label><input type="email" name ="mail"/></p>
+<p><label for="telephone">Telephone</label><input type="text" name ="tel"/></p>
+</form>
+
 <p>Cras lacus ligula, consectetur a tempor in, rutrum faucibus elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut interdum ex mi. Nunc tincidunt mi quam, ut lobortis justo mattis nec. Vestibulum id nulla dictum, porttitor quam nec, facilisis diam. Donec vel ligula velit. Cras blandit eleifend dolor. Nam vitae porta nulla, ut pulvinar dui.</p>
 </div>
 <div id="paragraphe3">
-<h3>vida<h3>
-<img src="image/calais.jpg">
+<h3>vida</h3>
+<img src="image/calais.jpg" width="500" height="474" >
 <p>Vestibulum varius vestibulum magna, in rutrum ex volutpat eu. In turpis leo, mollis in mauris a, gravida rutrum eros. Fusce vitae augue pellentesque, fringilla dolor eget, facilisis leo. Mauris aliquam scelerisque leo, non fermentum dolor ornare eget. Nam pellentesque eros dolor, ac tristique magna sodales eu.</p>
 </div>
 </div>
