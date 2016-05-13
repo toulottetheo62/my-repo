@@ -40,11 +40,27 @@ background-color:#c0392b;
 margin:2px;
 padding:5px 25px 5px 25px;
 }
-@media screen and (max-width: 360px) {
-	img{
-	width:300px;
 
-	
+@media screen and (max-width: 380px) {
+	#paragraphe3 img{
+	width:200px;
+	height:150px
+	}
+
+
+	#paragraphe3{
+	background-color:aqua;
 
 	}
 }
+
+@media screen and (max-width: 280px) {
+	#paragraphe3 img{
+	width:120px;
+	height:90px;
+	}
+
+
+
+}
+

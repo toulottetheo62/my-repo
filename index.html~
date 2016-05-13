@@ -10,7 +10,7 @@
 </head>
 <body>
 <div id="header">
-<h1>JE SUIS UNE PAGE HTML<span>une page super</span></h1>
+<h1>M4105C<span>un super module</span></h1>
 </div>
 <div class="in">
 <div id ="content">
@@ -36,7 +36,7 @@
 </div>
 <div id="paragraphe3">
 <h3>vida</h3>
-<img src="image/calais.jpg" width="500" height="474" alt="mairie de calais">
+<div id="img"><img  id="img" src="image/calais.jpg" alt="mairie de calais"></div>
 <p>Vestibulum varius vestibulum magna, in rutrum ex volutpat eu. In turpis leo, mollis in mauris a, gravida rutrum eros. Fusce vitae augue pellentesque, fringilla dolor eget, facilisis leo. Mauris aliquam scelerisque leo, non fermentum dolor ornare eget. Nam pellentesque eros dolor, ac tristique magna sodales eu.</p>
 </div>
 </div>
