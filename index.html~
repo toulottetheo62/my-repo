@@ -12,12 +12,37 @@
 <div id="header">
 <h1>M4105C<span>un super module</span></h1>
 </div>
+<div id="iutlogo">
+<img src="http://applicook.fr/iut/images/logo-iut.jpg" width=300  alt="mairie de calais">
+<div>
 <div class="in">
 <div id ="content">
 <h2> une page avec des choses dedans</h2>
 <div id="paragraphe1">
 <h3>Esta</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia ultrices nunc, in efficitur lorem tempus vitae. Proin semper commodo mauris nec tempor. Morbi dictum a odio iaculis maximus. Aliquam ut libero elit. Phasellus rutrum faucibus tortor egestas iaculis. Sed sit amet maximus erat.</p>
+<table>
+   <tr>
+  	<th>Sports</th>
+  	<th>Tennis de table</th>
+  	<th>Football</th>
+	<th>Sports</th>
+	<th>Tennis de table</th>
+     	<th>Football</th>
+	<th>Basketball</th>
+   </tr>
+   <tr>
+   	<td>Comptetions</td>
+   	<td>J-O</td>
+   	<td>Championnat d'europe</td>
+	<th>Worldcup</th>
+	<th>regional champ</th>
+     	<th>coupe district</th>
+	<th>NBA</th>
+   </tr>
+</table
+
+
 </div>
 <div id="paragraphe2">
 
@@ -36,7 +61,9 @@
 </div>
 <div id="paragraphe3">
 <h3>vida</h3>
-<div id="img"><img  id="img" src="image/calais.jpg" alt="mairie de calais"></div>
+<div id="imagecalais">
+<img src="image/calais.jpg" alt="mairie de calais">
+</div>
 <p>Vestibulum varius vestibulum magna, in rutrum ex volutpat eu. In turpis leo, mollis in mauris a, gravida rutrum eros. Fusce vitae augue pellentesque, fringilla dolor eget, facilisis leo. Mauris aliquam scelerisque leo, non fermentum dolor ornare eget. Nam pellentesque eros dolor, ac tristique magna sodales eu.</p>
 </div>
 </div>

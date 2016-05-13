@@ -1,50 +1,92 @@
-*{
-font-size:14px;
-color:black;
-}
+html{
+font-size:10px;}
+
+
+
 h1{
-font-size:24px;
+font-size:8vw;
 text-align:center;}
 span{
 display:block;
 text-align:center;
 }
 h2{
-font-size:20px;
+font-size:2.0em;
 }
 h3{
-font-size:18px;
+font-size:1.8em;
 }#paragraphe3 img{
-height:200px;
+height:200px; 
 width:300px;
 }
 #content{
 display:block;
-margin:2px;
+margin:.0.2em;
 }
 #paragraphe1{
 display : block;
 background-color:#2980b9;
-margin:4px;
-padding:5px 25px 5px 25px;
+margin:0.4em;
+padding:0.5em 2.5em 0.5em 2.5em;
 }
 #paragraphe2{
 display : block;
 background-color:#ecf0f1;
 margin:2px;
-padding:5px 25px 5px 25px;
+padding:0.5em 2.5em 0.5em 2.5em;
 }
 #paragraphe3{
 display : block;
 background-color:#c0392b;
 margin:2px;
-padding:5px 25px 5px 25px;
+padding:0.5em 2.5em 0.5em 2.5em;
 }
 
+
+#iutlogo{
+display:block;
+text-align:center;
+
+}
+
+#imagecalais{
+display:block;
+text-align:left;
+
+}
+table {
+border-collapse : collapse;
+border: solid;
+font-size:1.4em;
+margin:1em;
+position:relative;
+}
+td {
+width:11em;
+border-right: dashed red 0.1em;
+border-top:solid black 0.01em;
+height:2.5em;
+text-align: center;
+}
+
+tr{
+background-color:#F781BE;
+}
+tr:nth-child(odd){
+background-color:pink;
+}
+
+th{
+border-top:solid black 0.01em;
+background-color:grey;
+border-right: solid;
+}
+
+
 @media screen and (max-width: 380px) {
-	#paragraphe3 img{
-	width:200px;
-	height:150px
+	#paragraphe3 #imagecalais img{
+	width:20em;
+	height:15em;
 	}
 
 
@@ -55,12 +97,16 @@ padding:5px 25px 5px 25px;
 }
 
 @media screen and (max-width: 280px) {
-	#paragraphe3 img{
-	width:120px;
-	height:90px;
+	#paragraphe3 #imagecalais img{
+	width:12em;
+	height:9em;
 	}
 
-
+@media screen and (max-width: 750px) {
+	td{
+display:block}
+th{
+display:block}
 
 }
 
