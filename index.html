@@ -3,72 +3,95 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
-	<title>M4105C : Un super module</title>
+	<title>Page de Test</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" type='image/png' href="image/ico_calais.ico">
+	<link rel="icon" type='image/png' href="image/mario.ico">
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script>
+		function initialize() {
+  			var mapProp = {
+  				  center:new google.maps.LatLng(51.508742,-0.120850),
+   					 zoom:5,
+   					 mapTypeId:google.maps.MapTypeId.ROADMAP
+ 					 };
+ 					 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+					}
+				google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 
 </head>
 <body>
-<div id="header">
-<h1>M4105C<span>un super module</span></h1>
-</div>
-<div id="iutlogo">
-<img src="http://applicook.fr/iut/images/logo-iut.jpg" width=300  alt="mairie de calais">
-<div>
-<div class="in">
-<div id ="content">
-<h2> une page avec des choses dedans</h2>
-<div id="paragraphe1">
-<h3>Esta</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia ultrices nunc, in efficitur lorem tempus vitae. Proin semper commodo mauris nec tempor. Morbi dictum a odio iaculis maximus. Aliquam ut libero elit. Phasellus rutrum faucibus tortor egestas iaculis. Sed sit amet maximus erat.</p>
-<table>
-   <tr>
-  	<th>Sports</th>
-  	<td>Tennis de table</td>
-  	<td>Football</td>
-	<td>Sports</td>
-	<td>Tennis de table</td>
-     	<td>Football</td>
-	<td>Basketball</td>
-   </tr>
-   <tr>
-   	<th>Comptetions</th>
-   	<td>J-O</td>
-   	<td>Championnat d'europe</td>
-	<td>Worldcup</td>
-	<td>regional champ</td>
-     	<td>coupe district</td>
-	<td>NBA</td>
-   </tr>
-</table
 
 
-</div>
-<div id="paragraphe2">
+	<div id="header">
+		<div id='logo'></div>
+		<ul>
+			<li>Acceuil</li>
+			<li>Titre 1</li>
+			<li>Contact</li>
+			<li><input type="search" placeholder="Entrez un mot-clef" name="the_search"></li>
+		</ul>
+	</div>
 
-<h3>la</h3>
+	<div class="in">
+&nbsp;
+		<div id="banner">
 
-<form>
-<label for="nom">Nom</label><br><input id="nom" type="text" name ="nom"/><br>
-<label for="datenaissance">Date de naissance</label><br><input id="datenaissance" type="date" name ="datenaissance"/><br>
-<label for="number">Age</label><br><input id="number" type="text" name ="age"/><br>
-<label for="pagefb">Page Facebook</label><br><input id="pagefb" type="text" name ="pagefb"/><br>
-<label for="mail">Mail</label><br><input id="mail" type="email" name ="mail"/><br>
-<label for="telephone">Telephone</label><br><input id="telephone" type="text" name ="tel"/>
-</form>
+		</div>
+		<div id='texte'>
+		<h1>Titre h1</h1>
+		<p>txttxtxtxtxtxtxtxtxtxtxttxxtxtxttxtxtxxtxtxtxtxtxtxttxtxtxtxtxx
+		</p>
+		</div>
+		
 
-<p>Cras lacus ligula, consectetur a tempor in, rutrum faucibus elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut interdum ex mi. Nunc tincidunt mi quam, ut lobortis justo mattis nec. Vestibulum id nulla dictum, porttitor quam nec, facilisis diam. Donec vel ligula velit. Cras blandit eleifend dolor. Nam vitae porta nulla, ut pulvinar dui.</p>
+
+		<div id="images">
+	
+		<img src="https://s-media-cache-ak0.pinimg.com/736x/d5/46/c0/d546c0bb1471bb90c60cefa589c495a2.jpg" class="aligneimage">
+		<img src="https://s-media-cache-ak0.pinimg.com/736x/d5/46/c0/d546c0bb1471bb90c60cefa589c495a2.jpg" class="aligneimage">
+		<img src="https://s-media-cache-ak0.pinimg.com/736x/d5/46/c0/d546c0bb1471bb90c60cefa589c495a2.jpg" class="aligneimage">
+		<img src="https://s-media-cache-ak0.pinimg.com/736x/d5/46/c0/d546c0bb1471bb90c60cefa589c495a2.jpg" class="aligneimage">
+
+		</div>
+
+		<div id="lastparaf">
+		<div id="googleMap" style="width:500px;height:380px;" class="aligneimage"></div>
+		<div id="formuaire" class="aligneimage">
+			<form>
+			<label for="prenom">Prenom</label><br>
+			<input id="prenom" type="text" name ="prenom"/><br>
+			<label for="nom">Nom</label><br>
+			<input id="nom" type="text" name ="nom"/><br>
+			<label for="datenaissance">Date de naissance</label><br><input id="datenaissance" type="date" name ="datenaissance"/><br>
+			
+			<label for="mail">Mail</label><br><input id="mail" type="email" name ="mail"/><br>
+			<label for="message">Message</label><br>
+			<input id="Message" type="text" name ="Message"/><br>
+			<input type="submit" name='submit'>
+			</form>		
+
+
+		</div>
+		</div>
+
+
+		
+		<id="footer">
+		Toulotte theo		
+		</id>
+
+
+
+
+
+
+
+
+
+
+
 </div>
-<div id="paragraphe3">
-<h3>vida</h3>
-<div id="imagecalais">
-<img src="image/calais.jpg" alt="mairie de calais">
-</div>
-<p>Vestibulum varius vestibulum magna, in rutrum ex volutpat eu. In turpis leo, mollis in mauris a, gravida rutrum eros. Fusce vitae augue pellentesque, fringilla dolor eget, facilisis leo. Mauris aliquam scelerisque leo, non fermentum dolor ornare eget. Nam pellentesque eros dolor, ac tristique magna sodales eu.</p>
-</div>
-</div>
-</div>
-<!-- Le reste du contenu -->
 
 </body>
 </html>

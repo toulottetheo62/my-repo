@@ -1,110 +1,75 @@
 html{
-font-size:10px;}
+background-color:black;
+font-size:62.5%;
+color:white;
+}
+body{
+margin:0;
+padding:0;
+font-size:1.6rem;
+}
+#texte{
 
-
-
-h1{
-font-size:8vw;
-text-align:center;}
-span{
+}
+#header{
 display:block;
-text-align:center;
-}
-h2{
-font-size:2.0em;
-}
-h3{
-font-size:1.8em;
-}#paragraphe3 img{
-height:200px; 
-width:300px;
-}
-#content{
-display:block;
-margin:.0.2em;
-}
-#paragraphe1{
-display : block;
-background-color:#2980b9;
-margin:0.4em;
-padding:0.5em 2.5em 0.5em 2.5em;
-}
-#paragraphe2{
-display : block;
-background-color:#ecf0f1;
-margin:2px;
-padding:0.5em 2.5em 0.5em 2.5em;
-}
-#paragraphe3{
-display : block;
-background-color:#c0392b;
-margin:2px;
-padding:0.5em 2.5em 0.5em 2.5em;
-}
-
-
-#iutlogo{
-display:block;
-text-align:center;
-
-}
-
-#imagecalais{
-display:block;
-text-align:left;
-
-}
-table {
-border-collapse : collapse;
-border: solid;
-font-size:1.4em;
-margin:1em;
-position:relative;
-}
-td {
-width:11em;
-border-right: dashed red 0.1em;
-border-top:solid black 0.01em;
-height:2.5em;
-text-align: center;
-}
-
-tr{
-background-color:#F781BE;
-}
-tr:nth-child(odd){
 background-color:pink;
-}
-
-th{
-border-top:solid black 0.01em;
-background-color:grey;
-border-right: solid;
+height:7em;
+padding:0;
 }
 
 
-@media screen and (max-width: 380px) {
-	#paragraphe3 #imagecalais img{
-	width:20em;
-	height:15em;
-	}
 
-
-	#paragraphe3{
-	background-color:aqua;
-
-	}
+.in{
+display:block;
+background-color:blue;
+margin-left:3em;
+margin-right:3em;
 }
 
-@media screen and (max-width: 280px) {
-	#paragraphe3 #imagecalais img{
-	width:12em;
-	height:9em;
-	}
+#banner{
+display:block;
+height:10em;
+background-color:white;
+margin:10px;
 
-@media screen and (max-width: 750px) {
-	td{
-display:block}
+
+}
+
+
+#images{
+height:10em;
+text-align:center;
+margin:0.3em;
+
+}
+
+
+#lastparaf{
+display:block;
+text-align:center;
+height:30em;
+
+}
+#googleMap{
+float:left;}
+
+#formulaire{
+float:right;
+}
+ul{
+
+float:right;}
+
+li{
+display:inline-block;
+}
+
+.aligneimage{
+display:inline-block;
+width:10em;
+
+
 
 }
 
