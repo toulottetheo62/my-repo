@@ -52,9 +52,14 @@ height:30em;
 
 }
 #googleMap{
-float:left;}
+height:30em;
+float:left;
+width:50%}
 
 #formulaire{
+display:block;
+background-color:aqua;
+width:50%;
 float:right;
 }
 ul{
@@ -62,14 +67,44 @@ ul{
 float:right;}
 
 li{
+margin:0.5em;
 display:inline-block;
 }
+
+#logo{
+display:block;
+background-color:aqua;
+width:5em;
+height:5em;
+position:absolute;
+}
+
+
+#formulaire input{
+display:inline-block;
+width:90%;
+margin:1em;
+}
+
+
 
 .aligneimage{
 display:inline-block;
 width:10em;
-
-
-
 }
+
+.aligne{
+
+displau:inline-block;
+}
+
+input#prenom,input#nom,input#datenaissance,input#villenai{
+width:40%
+}
+input#prenom,input#datenaissance{
+float:left;}
+
+input#nom,input#villenai{
+float:right;}
+
 
