@@ -51,6 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet enim enim. 
 		<div id="image1" class=aligne>
 		<img src="https://s-media-cache-ak0.pinimg.com/736x/d5/46/c0/d546c0bb1471bb90c60cefa589c495a2.jpg" >
 <h2>YOLO</h2>
+<p>Description</p>
 </div>
 <div id="image2" class=aligne>
 		<img src="https://s-media-cache-ak0.pinimg.com/736x/d5/46/c0/d546c0bb1471bb90c60cefa589c495a2.jpg" >
@@ -60,17 +61,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet enim enim. 
 <div id="image3" class=aligne>
 		<img src="https://s-media-cache-ak0.pinimg.com/736x/d5/46/c0/d546c0bb1471bb90c60cefa589c495a2.jpg" >
 <h2>YOLO</h2>
+<p>Description</p>
 </div>
 <div id="image4" class=aligne>
 
 		<img src="https://s-media-cache-ak0.pinimg.com/736x/d5/46/c0/d546c0bb1471bb90c60cefa589c495a2.jpg" >
 <h2>YOLO</h2>
+<p>Description</p>
 
 		</div>
 		</div>
 		<div id="lastparaf">
+		
 		<div id="googleMap"  class="aligne"></div>
 		<div id="formulaire" class="aligne">
+		<h2>YOLO</h2>
 			<form>
 			
 			<input id="prenom" type="text" name ="prenom" placeholder="prenom"/>
