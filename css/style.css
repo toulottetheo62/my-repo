@@ -29,7 +29,7 @@ border-right:solid black 0.1em;
 
 }
 
-li:last-child{
+li:last-child,li:nth-child(3){
 border-right:solid white 0em}
 
 
@@ -63,7 +63,7 @@ margin:0.2em;
 #lastparaf{
 display:block;
 text-align:center;
-height:35em;
+height:20em;
 
 }
 
@@ -77,11 +77,12 @@ width:45%}
 #formulaire{
 
 border-left:solid 0.1em black;
-margin:1em;
+
 display:block;
 
 width:45%;
 float:right;
+height:100%
 }
 ul{
 
@@ -113,11 +114,12 @@ display:inline-block;
 
 #image1 img,#image2 img,#image3 img,#image4 img{
 width:10em;
+padding:2.5em;
 }
 
 
 .aligne{
-margin : 3em;
+
 displau:inline-block;
 }
 
@@ -140,8 +142,9 @@ text-align:right;
 padding:0.3em;
 border-top:solid 0.1em white;
 display:block;
-width:auto;}
-
+width:100%;
+float:right;
+margin-top:2em;}
 
 
 
@@ -152,14 +155,68 @@ width:auto;}
 
 @media screen and (max-width: 760px){
 
+	.in{
+	margin:0em;
+	padding:0;
+	}
+	#banner{
+	height:10em;
+	}
 
+	#texte{
+	margin:0.3em;
+	}
+	#logo{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	height:3em;
+	width:5em;
+	margin-top:1em;
+	margin-bottom:1em;
+	}
 
+	
+	#header{
+	height:auto;
+	}
+	ul{
+	text-align:center;
+	float:none;
+	}
 
-
-
-
+	input#prenom, input#nom, input#datenaissance, input#villenai{
+	width:85%;
+	
+	}
 
 }
+@media screen and (max-width: 360px){
+
+
+	#googleMap,#formulaire{
+	display:block;
+	width:100%;
+	border:none;
+	height:20em;
+	margin:0;	}
+
+	.in{
+	margin:0em;
+	}
+	#lastparaf{
+	height:40em;
+	}
+	ul{display:none;}
+	#banner{
+	margin-top:3em;
+	}
+}
+
+
+
+
+
 
 
 
